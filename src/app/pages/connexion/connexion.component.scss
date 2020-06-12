@@ -1,0 +1,18 @@
+.compte {
+    display: flex;
+    justify-content: center;
+}
+
+.app-toggle-box {
+    width: 500px;
+}
+
+.toggle-box {
+    width: 100%;
+}
+
+@media screen and (max-width: 994px) {
+.compte {
+    width: 100%;
+}
+}

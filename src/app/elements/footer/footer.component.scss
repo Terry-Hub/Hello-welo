@@ -1,0 +1,107 @@
+footer {
+    background-color: #E8E8EB;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.liens {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20%;
+}
+
+.newsletter {
+    width: 35%;
+}
+
+.reseaux {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.picto {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+.btn1 {
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #95c11f;
+    text-align: center;
+    padding: 3px 10px;
+    text-decoration: none
+  }
+  
+  .btn1:hover {
+    background: #FFFFFF;
+    box-shadow: 0 2px 1px 0 #00000033, 0 2px 1px 0 #00000030;
+  }
+  
+  .btnvert {
+    color: rgb(149, 193, 31);
+}
+  
+.btnnoir {
+    color: black;
+}
+
+.footer-copyright {
+  padding: 20px;
+  border-top: 1px solid #00000080;
+  font-size: 100%;
+  text-align: center;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 994px) {
+
+    a {
+        font-size: 0.8em;
+    }
+
+    .links {
+        width: 80%;
+    }
+    
+    .liens {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+    }
+
+    .newsletter {
+        width: 80%;
+        font-size: 0.8em;
+    }
+
+}

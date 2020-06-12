@@ -1,0 +1,19 @@
+.formulaire {
+    display: flex;
+    justify-content: center;
+}
+
+.boite {
+    width: 40%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 994px) {
+    .boite {
+        width: 70%;
+    }
+}
